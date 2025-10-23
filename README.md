@@ -16,15 +16,20 @@ A personal Spring Boot RESTful API that manages personal project data. Built usi
 ---
 ## 🚀 Getting Started
 ### 1️⃣ Clone the repository
-'''bash
+```bash
 git clone https://github.com/xXElCarteroXx/spring-boot-personal-projects.git
+```
 ### 2️⃣ Configure database credentials
 ## Update your credentials in src/main/resources/application.properties:
-- spring.datasource.url=jdbc:postgresql://localhost:5432/my_projects_db
-- spring.datasource.username=yourusername
-- spring.datasource.password=yourpassword
+```bash
+spring.datasource.url=jdbc:postgresql://localhost:5432/my_projects_db
+spring.datasource.username=yourusername
+spring.datasource.password=yourpassword
+```
 ### 3️⃣ Run the app:
+```bash
 mvn spring-boot:run
+```
 ### 4️⃣ Test URL endpoints
 Base URL: http://localhost:8080/projects
 ## Example endpoints:
